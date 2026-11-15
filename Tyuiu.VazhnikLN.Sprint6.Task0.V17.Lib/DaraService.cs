@@ -6,7 +6,7 @@ public class DataService : ISprint6Task0V17
 {
     public double Calculate(int x)
     {
-        double s = Math.Pow(Math.E, x) / x;
+        double s = Math.Round(Math.Pow(Math.E, x) / x, 3);
         return s;
     }
 }

@@ -10,7 +10,7 @@ namespace Tyuiu.VazhnikLN.Sprint6.Task0.V17.Test
             DataService ds = new DataService();
             int x = 1;
             double res = ds.Calculate(x);
-            double wait = Math.E;
+            double wait = Math.Round(Math.E, 3);
             Assert.AreEqual(wait, res);
         }
     }
