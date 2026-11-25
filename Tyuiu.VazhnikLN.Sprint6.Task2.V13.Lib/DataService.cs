@@ -12,7 +12,7 @@ namespace Tyuiu.VazhnikLN.Sprint6.Task2.V13.Lib
             double f;
             for (int i = startValue; i <= stopValue; i++)
             {
-                f = Math.Round((Math.Sin(i) + ((2.0 * i) / 3) - (4 * Math.Cos(i) * i)), 2);
+                f = Math.Round((Math.Sin(i) + ((2 * i) / 3) - (4 * Math.Cos(i) * i)), 2);
                 res[k] = f;
                 k++;
             }
